@@ -1,0 +1,26 @@
+{
+    "name": "magento/coders",
+    "description": "Add Extra column Estimated Profit to the products grid in Magento2 Backend. Estimated profit should be calculated as: (Sales price - Cost price) X Qty in stock",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "yogesh.shitole24@gmail.com",
+            "name": "yogesh shitole"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\Coders\\": ""
+        }
+    }
+}
